@@ -1,0 +1,80 @@
+{
+	"user": "brpsamp",
+	"repo": "brpsa-public",
+	"entry": "brpsamp/core/server/brp.pwn",
+	"output": "gamemodes/brpsa.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib",
+		"pawn-lang/YSI-Includes@5.x",
+		"pBlueG/SA-MP-MySQL:R41-4",
+		"katursis/Pawn.CMD:3.3.6",
+		"Open-GTO/samp-gvar-plugin:v1.3.1",
+		"Open-GTO/foreach",
+		"Open-GTO/mdialog",
+		"Open-GTO/zlang",
+		"samp-incognito/samp-streamer-plugin:v2.9.5",
+		"Southclaws/samp-logger"
+	],
+	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "samp open.mp ugmp",
+		"rcon_password": "brpp",
+		"port": 7777,
+		"hostname": "Blefonix RP | brpsa-public",
+		"maxplayers": 1000,
+		"language": "multilang",
+		"mapname": "Bleforld",
+		"weburl": "rp.blefonix.com",
+		"gamemodetext": "samp open.mp ugmp",
+		"bind": "127.0.0.1",
+		"announce": true,
+		"lanmode": false,
+		"query": true,
+		"rcon": false,
+		"logqueries": false,
+		"sleep": 5,
+		"maxnpc": 10,
+		"stream_rate": 500,
+		"stream_distance": 300,
+		"onfoot_rate": 80,
+		"incar_rate": 80,
+		"weapon_rate": 40,
+		"chatlogging": true,
+		"timestamp": true,
+		"logtimeformat": "[%H:%M:%S]",
+		"messageholelimit": 100000,
+		"messageslimit": 500,
+		"ackslimit": 10000,
+		"playertimeout": 10000,
+		"minconnectiontime": 0,
+		"lagcompmode": 1,
+		"connseedtime": 300000,
+		"db_logging": true,
+		"db_log_queries": true,
+		"conncookies": true,
+		"cookielogging": false,
+		"output": true,
+		"extra": {
+			"long_call_time": "0",
+			"profile_format": "html",
+			"profile_gamemode": "1"
+		}
+	},
+	"build": {
+		"name": "main",
+		"args": [
+			"-;+",
+			"-(+",
+			"-\\+",
+			"-d3",
+			"-Z+"
+		],
+		"includes": [
+			"brpsamp"
+		],
+		"compiler": {
+			"version": "3.10.10"
+		}
+	}
+}

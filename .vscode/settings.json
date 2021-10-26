@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "libmariadb.dll": true,
+        "scriptfiles/callbackfix.amx": true,
+        "filterscripts": true,
+        "samp-server.exe": true,
+        "samp-npc.exe": true,
+        "announce.exe": true,
+        "log-core.dll": true,
+        "gamemodes": true
+    }
+}

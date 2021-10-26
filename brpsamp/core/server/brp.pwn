@@ -1,0 +1,3 @@
+// Blefonix RolePlay Public
+
+main(){}
